@@ -1,0 +1,165 @@
+body {
+  background-color: rgb(247, 250, 251);
+}
+
+h1{
+  font-size: 5rem;
+  line-height: 1.2em;
+  letter-spacing: 2px;
+  text-indent: -3px;
+}
+
+h2{
+  font-size: 4rem;
+  line-height: 1.2em;
+  letter-spacing: 1px;
+  text-indent: -2px;
+}
+
+h3{
+  font-family: 'Lato';
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 400;
+  text-shadow: white 2px 2px 1px;
+}
+
+p{
+  font-family: 'Lato';
+}
+
+.site-head{
+  position: relative;
+  display: table;
+  width: 100%;
+  height: 60%;
+  text-align: center;
+  margin-bottom: 5rem;
+  color: #fff;
+  background: #303538 no-repeat center center;
+  background-size: cover;
+}
+
+.vertical {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+.site-head-content{
+  position: relative;
+  width: 80%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.site-title{
+  margin: 10px 0 10px 0;
+  font-size: 4rem;
+  letter-spacing: -1px;
+  font-weight: 700;
+  font-family: 'Lato';
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+.site-description{
+  margin: 0;
+  font-size: 1.8rem;
+  line-height: 1.5em;
+  font-weight: 400;
+  font-family: 'Lato';
+  letter-spacing: 0;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.15);
+}
+
+.container{
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#flowchart{
+  padding-bottom: 100px;
+  margin: 0 auto;
+}
+
+#flowchart img{
+  display:block;
+  margin:auto;
+}
+
+#description{
+  background-color: #F1F1F1;
+  font-size: 1.5rem;
+  height: 300px;
+  font-family: 'Lato';
+  text-align: center;
+}
+
+#features{
+  background-color: #F1F1F1;
+}
+
+.row{
+}
+
+.feature{
+  width: 450px;
+  border: none;
+  color: #394755;
+  font-family: 'Lato';
+  padding: 30px 0;
+  text-align: center;
+  float: left;
+}
+
+#pricing{
+  padding-top: 30px;
+  font-family: 'Lato';
+  color: #394755;
+  text-align: center;
+}
+
+.pricing-header{
+  font-size: 3rem;
+}
+
+.camera-header{
+  font-size: 1.5rem;
+}
+
+.plan-header{
+  font-size: 1.5rem;
+}
+
+.pricing-table{
+  border: 1px solid gray;
+  text-align: center;
+  width: 620px;
+  margin: 0 auto;
+}
+
+.pricing-table th{
+  border-bottom: 1px solid gray;
+  font-family: 'Lato';
+}
+
+.pricing-table td{
+}
+
+#interested{
+  background-color: #F1F1F1;
+}
+
+.icon-container{
+  font-size: 60px;
+  margin: 20px 0;
+}
+
+.icon-dog{
+  background: url('./icons/glyphicons_002_dog.png');
+}
+
+.submitForm{
+  text-align: center;
+}
